@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Panelo - Free Admin Template</title>
+<link rel="stylesheet" type="text/css" href="__RES__/css/style.css" />
+
+<!-- jQuery file -->
+<script src="__RES__/js/jquery.min.js"></script>
+<script src="__RES__/js/jquery.tabify.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+var $ = jQuery.noConflict();
+$(function() {
+$('#tabsmenu').tabify();
+$(".toggle_container").hide(); 
+$(".trigger").click(function(){
+	$(this).toggleClass("active").next().slideToggle("slow");
+	return false;
+});
+});
+</script>
+</head>
+<body>
+<div id="panelwrap">
+  	
+	<div class="header">
+    <div class="title"><a href="#">Panelo Admin</a></div>
+    
+    <div class="header_right">欢迎您{$Think.session.username}, <a href="#" class="settings">Settings</a> <a href="{:U('Public/logout');}" class="logout">退出</a> </div>
+    
+    <div class="menu">
+    <ul>
+    <li><a href="#" class="selected">Main page</a></li>
+    <li><a href="#">Settings</a></li>
+    <li><a href="#">Add a category</a></li>
+    <li><a href="#">Edit categories</a></li>
+    <li><a href="#">Categories</a></li>
+    <li><a href="#">Options</a></li>
+    <li><a href="#">Admin settings</a></li>
+    <li><a href="#">Help</a></li>
+    </ul>
+    </div>
+    
+    </div>
+    
+    <div class="submenu">
+    <ul>
+    <li><a href="#" class="selected">settings</a></li>
+    <li><a href="#">users</a></li>
+    <li><a href="#">categories</a></li>
+    <li><a href="#">edit section</a></li>
+    <li><a href="#">templates</a></li>
+    </ul>
+    </div> 
+	{__CONTENT__}
+	
+	  <div class="footer">
+Panelo - Free Admin Collect from <a href="http://www.mycodes.net/" title="网站模板" target="_blank">网站模板</a>
+</div>
+
+</div>
+
+    	
+</body>
+</html>

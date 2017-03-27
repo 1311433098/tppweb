@@ -1,0 +1,33 @@
+[ 2014-10-24T10:14:55+08:00 ] 127.0.0.1 /1023TP_project/index.php/Public/login
+ERR: 无法加载模块:Public
+
+[ 2014-10-24T10:16:45+08:00 ] 127.0.0.1 /1023TP_project/index.php/Public/login
+ERR: 无法加载模块:Public
+
+[ 2014-10-24T10:17:44+08:00 ] 127.0.0.1 /1023TP_project/index.php/Admin/Public/style.css
+ERR: 非法操作:style.css
+
+[ 2014-10-24T10:19:43+08:00 ] 127.0.0.1 /1023TP_project/index.php/Admin/Public/style.css
+ERR: 非法操作:style.css
+
+[ 2014-10-24T10:20:01+08:00 ] 127.0.0.1 /1023TP_project/index.php/Admin/Public/style.css
+ERR: 非法操作:style.css
+
+[ 2014-10-24T11:03:04+08:00 ] 127.0.0.1 /1023TP_project/index.php/Admin/public/captcha.html
+ERR: 无法加载模块:public
+
+[ 2014-10-24T11:05:03+08:00 ] 127.0.0.1 /1023TP_project/index.php/Admin/public/captcha.html
+ERR: 无法加载模块:public
+
+[ 2014-10-24T15:18:38+08:00 ] 127.0.0.1 /1023TP_project/index.php/Admin/Public/loLogin.html
+ERR: 非法操作:loLogin
+
+[ 2014-10-24T15:18:53+08:00 ] 127.0.0.1 /1023TP_project/index.php/Admin/Public/loLogin.html
+ERR: 非法操作:loLogin
+
+[ 2014-10-24T19:20:54+08:00 ] 127.0.0.1 /1023TP_project/index.php/Admin/Public/index
+ERR: 非法操作:index
+
+[ 2014-10-24T20:39:12+08:00 ] 127.0.0.1 /1023TP_project/index.php/Admin/Public/doLogin.html
+ERR: Access denied for user 'root'@'localhost' (using password: YES)
+
